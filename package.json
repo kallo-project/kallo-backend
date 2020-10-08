@@ -4,8 +4,9 @@
   "description": "Kallo back-end",
   "scripts": {
     "dev": "set NODE_ENV=development && nodemon src/index.ts",
-    "start": "node dist/index.js",
-    "build": "tsc"
+    "build": "tsc -p .",
+    "postinstall": "npm run build",
+    "start": "node dist/index.js"
   },
   "repository": {
     "type": "git",
