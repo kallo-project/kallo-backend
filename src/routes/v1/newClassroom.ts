@@ -82,7 +82,7 @@ router
 
       // #region Push to database
       try {
-        const result = await createClassroom(
+        const classroom = await createClassroom(
           name,
           await generateKey(),
           limitedStudents,
@@ -92,9 +92,7 @@ router
           testMode
         );
 
-        res.json({
-          class_id: result._id
-        });
+        res.json({ class_id: classroom._id });
       } catch (e) {
         res.status(500).json({ error: `Internal server error: ${e.message}` });
       }
