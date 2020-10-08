@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Kallo back-end",
   "scripts": {
-    "start": "node build/index.js",
+    "start": "node dist/index.js",
     "build": "tsc",
     "postinstall": "npm run build"
   },
