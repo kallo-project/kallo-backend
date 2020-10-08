@@ -9,7 +9,7 @@ declare const process: {
 // #region Import modules
 import dotenv from 'dotenv';
 
-if (process.env.NODE_ENV.trim() === 'development') {
+if (process.env.NODE_ENV?.trim() === 'development') {
   console.log('Back-end is running on development mode!');
   dotenv.config();
 }
