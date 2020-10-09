@@ -1,10 +1,21 @@
-# kallo-backend • [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# kallo-backend
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![ts](https://badgen.net/badge/-/TypeScript/blue?icon=typescript&label)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 [https://github.com/kallo-project/about](https://github.com/kallo-project/about)
 
 ----
 
+### Technologies Used
+- [Node.js](https://github.com/nodejs/node)
+- [MongoDB](https://github.com/mongodb/mongo)
+- [TypeScript](https://github.com/microsoft/TypeScript)
+
+----
+
 ### Warning
-We are using Heroku to host a demo version of this project and to do "build on deploy" TypesSript, and other `@types` dependencies are required; therefore, we have added them as normal dependencies.
+We are using Heroku to host a demo version of this project and to do "build on deploy," TypesSript, and other `@types` dependencies are required; therefore, we have added them as normal dependencies.
 
 Here are the TypeScript (development) dependencies:
 ```json
