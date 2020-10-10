@@ -17,7 +17,7 @@ Starting application (after building): `npm run start`
 ### Environment Variables
 `DATABASE_URL`—MongoDB URL
 
-`PORT`—The port which the back-end will listen to (not required for hosts such as Heroku)
+`PORT`—The port which the back-end will listen to (not required for hosts such as [Heroku](https://heroku.com))
 
 `G_SECRET`—Google Recaptcha secret key
 
@@ -31,7 +31,7 @@ Starting application (after building): `npm run start`
 ----
 
 ### Warning
-We are using Heroku to host a demo version of this project and to do "build on deploy," TypesSript, and other `@types` dependencies are required; therefore, we have added them as normal dependencies.
+To "build on deploy," TypeScript and other `@types` dependencies are required; however, services such as [Heroku](https://heroku.com), where we are currently hosting this project, do not install any development dependencies on deployment; thus, we specified them as normal dependencies.
 
 Here are the TypeScript (development) dependencies:
 ```json
