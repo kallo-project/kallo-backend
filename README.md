@@ -1,4 +1,4 @@
-# kallo-backend
+# kallo-backend - [Latest Release](https://github.com/kallo-project/kallo-backend/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![ts](https://badgen.net/badge/-/TypeScript/blue?icon=typescript&label)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
