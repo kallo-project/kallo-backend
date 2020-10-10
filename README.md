@@ -5,6 +5,22 @@
 
 [https://github.com/kallo-project/about](https://github.com/kallo-project/about)
 
+#### NPM Commands
+Running in development mode: `npm run dev`
+
+Compiling into JavaScript (outputs to the `dist` folder): `npm run build`
+
+Starting application (after building): `npm run start`
+
+----
+
+### Environment Variables
+`DATABASE_URL`—MongoDB URL
+
+`PORT`—The port which the back-end will listen to (not required for hosts such as Heroku)
+
+`G_SECRET`—Google Recaptcha secret key
+
 ----
 
 ### Technologies Used
