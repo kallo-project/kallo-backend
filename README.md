@@ -5,6 +5,8 @@
 
 [https://github.com/kallo-project/about](https://github.com/kallo-project/about)
 
+----
+
 #### NPM Commands
 Running in development mode: `npm run dev`
 
